@@ -32,14 +32,20 @@ This project provides a **User CRUD API** built using **Golang**, **Gin**, **GOR
 ## Installation & Setup
 
 ### 1. Clone the Repository
+```
 git clone https://github.com/yourusername/user-crud-api.git
 cd user-crud-api
+```
 
 ### 2. Install Dependencies
+```
 go mod tidy
+```
 
 ### 3. Run the Server
+```
 go run main.go
+```
 
 ### 5. API Endpoints
 ```
