@@ -17,7 +17,8 @@ This project provides a **User CRUD API** built using **Golang**, **Gin**, **GOR
 - **PostgreSQL** or **MySQL**
 
 ## Project Structure
-```├── controllers/ # API endpoint controllers 
+```
+├── controllers/ # API endpoint controllers 
 ├── middlewares/ # JWT authentication middleware
 ├── seed/ # Seed data for master admin creation
 ├── services/ # Business logic layer
@@ -25,7 +26,8 @@ This project provides a **User CRUD API** built using **Golang**, **Gin**, **GOR
 ├── models/ # Data models (e.g., User)
 ├── utils/ # Utility functions (e.g., JWT generation)
 ├── config/ # Configuration files
-├── main.go # Main entry point
+├── main.go # Main entry point 
+```
 
 ## Installation & Setup
 
@@ -40,11 +42,13 @@ go mod tidy
 go run main.go
 
 ### 5. API Endpoints
+```
 POST /api/register: Register a new user.
 POST /api/login: Login and receive a JWT token.
 GET /api/user/{id}: Get user details by ID (Protected route).
 PUT /api/user/{id}: Update user details by ID (Protected route).
 DELETE /api/user/{id}: Delete user by ID (Protected route).
+```
 
 Contributing
 Feel free to fork the repository, open issues, and submit pull requests.
