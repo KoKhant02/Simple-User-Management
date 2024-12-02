@@ -17,14 +17,15 @@ This project provides a **User CRUD API** built using **Golang**, **Gin**, **GOR
 - **PostgreSQL** or **MySQL**
 
 ## Project Structure
-├── controllers/ # API endpoint controllers 
-├── middlewares/ # JWT authentication middleware 
-├── seed/ # Seed data for master admin creation 
-├── services/ # Business logic layer 
-├── dao/ # Database interactions 
-├── models/ # Data models (e.g., User) 
-├── utils/ # Utility functions (e.g., JWT generation) 
-├── config/ # Configuration files ├── main.go # Main entry point
+├── controllers/ # API endpoint controllers
+├── middlewares/ # JWT authentication middleware
+├── seed/ # Seed data for master admin creation
+├── services/ # Business logic layer
+├── dao/ # Database interactions
+├── models/ # Data models (e.g., User)
+├── utils/ # Utility functions (e.g., JWT generation)
+├── config/ # Configuration files
+├── main.go # Main entry point
 
 ## Installation & Setup
 
