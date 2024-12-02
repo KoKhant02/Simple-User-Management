@@ -17,7 +17,7 @@ This project provides a **User CRUD API** built using **Golang**, **Gin**, **GOR
 - **PostgreSQL** or **MySQL**
 
 ## Project Structure
-├── controllers/ # API endpoint controllers
+├── controllers/ # API endpoint controllers ```
 ├── middlewares/ # JWT authentication middleware
 ├── seed/ # Seed data for master admin creation
 ├── services/ # Business logic layer
