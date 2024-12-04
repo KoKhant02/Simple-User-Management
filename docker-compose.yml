@@ -1,0 +1,20 @@
+version: "3.9"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./gorm.db:/app/gorm.db
+    environment:
+      - GIN_MODE=release
+    depends_on:
+      - db
+
+  db:
+    image: nouchka/sqlite3
+    container_name: sqlite_db
+    volumes:
+      - ./gorm.db:/data/gorm.db
