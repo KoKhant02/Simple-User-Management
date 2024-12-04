@@ -33,7 +33,7 @@ This project provides a **User CRUD API** built using **Golang**, **Gin**, **GOR
 
 ### 1. Clone the Repository
 ```
-git clone https://github.com/yourusername/user-crud-api.git
+git clone https://github.com/KoKhant02/user-crud-api.git
 cd user-crud-api
 ```
 
@@ -45,6 +45,10 @@ go mod tidy
 ### 3. Run the Server
 ```
 go run main.go
+```
+OR if docker is installed
+```
+docker compose up --build
 ```
 
 ### 5. API Endpoints
